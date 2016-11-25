@@ -1,22 +1,22 @@
 {
-  "name": "cz-conventional-changelog",
+  "name": "lumapps-conventional-changelog",
   "version": "0.0.0-semantically-released.0",
-  "description": "Commitizen adapter following the conventional-changelog format.",
+  "description": "Commitizen adapter following the Lumapps conventional-changelog format.",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
     "test": "echo 'Tests need to be setup!'",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "homepage": "https://github.com/commitizen/cz-conventional-changelog",
+  "homepage": "https://github.com/lumapps/lumapps-conventional-changelog",
   "repository": {
     "type": "git",
-    "url": "https://github.com/commitizen/cz-conventional-changelog.git"
+    "url": "https://github.com/lumapps/lumapps-conventional-changelog.git"
   },
   "author": "Jim Cummins <jimthedev@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "conventional-commit-types": "^2.0.0",
+    "lumapps-conventional-commit-types": "github:lumapps/conventional-commit-types",
     "lodash.map": "^4.5.1",
     "longest": "^1.0.1",
     "pad-right": "^0.2.2",
